@@ -108,8 +108,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+    rgba(255, 0, 0, 0) 100%);
   border-radius: 16px;
   width: 1320px;
   height: 600px;
@@ -157,4 +156,80 @@ body {
   padding: 5px;
   margin-top: 20px;
   margin-left: 150px;
+}
+
+/* Fifth items started */
+.Fithitems{
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px auto 140px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%);
+}
+.fifthitemcontents{
+    display: flex;
+}
+.fiftfirstcontent{
+    padding-top: 150px;
+    padding-right: 50px;
+}
+
+
+.fifthimg{
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.fifthlastsection{
+    padding-top: 150px;
+    padding-right: 10px;
+}
+.fiftfirstcontent #fifthHead{
+    color: #FF0000;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+.fiftfirstcontent #fifthhead2{
+    color: #070211;
+font-size: 48px;
+font-family: Merriweather;
+font-weight: 900;
+text-transform: capitalize;
+padding-left: 10px;
+}
+.fiftfirstcontent #fifthpara{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-family: Inter;
+font-weight: 400;
+line-height: 32px;
+padding-left: 8px;
+
+}
+.fifthimg{
+
+}
+
+.fifthlastsection #fifthlasthead{
+    color: #FF0000;
+font-size: 48px;
+font-family: Inter;
+font-weight: 700;
+padding-bottom: 5px;
+}
+.fifthlastsection #fifthlastpara{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-family: Inter;
+font-weight: 400;
+line-height: 32px;
+padding-bottom: 15px;
 }

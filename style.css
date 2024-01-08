@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header first started */
+body{
+    width: 1320px;
+    height: 600px;
+
+}
+
+.header{
+    width: 1320px;
+    height: 600px;
+    background-image: url('./images/Banner\ Image.png');
+    margin: 50px 140px auto 140px;
+    box-sizing: border-box;
+}
+
+.headcontent{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Merriweather;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding:150px 180px 100px 150px ;
+}
+.headcontent p{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 30px;
+    
+}
+
+/* second items started */
+
+

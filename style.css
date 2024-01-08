@@ -1,39 +1,160 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 /* header first started */
-body{
-    width: 1320px;
-    height: 600px;
-
+body {
+  width: 1320px;
+  height: 600px;
 }
 
-.header{
-    width: 1320px;
-    height: 600px;
-    background-image: url('./images/Banner\ Image.png');
-    margin: 50px 140px auto 140px;
-    box-sizing: border-box;
+.header {
+  width: 1320px;
+  height: 600px;
+  background-image: url("./images/Banner\ Image.png");
+  margin: 50px 140px auto 140px;
+  box-sizing: border-box;
 }
 
-.headcontent{
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    font-family: Merriweather;
-    font-weight: 700;
-    word-wrap: break-word;
-    padding:150px 180px 100px 150px ;
+.headcontent {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: Merriweather;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding: 150px 180px 100px 150px;
 }
-.headcontent p{
-    font-size: 32px;
-    font-weight: 400;
-    padding: 30px;
-    
+.headcontent p {
+  font-size: 32px;
+  font-weight: 400;
+  padding: 30px;
 }
 
 /* second items started */
 
+.secondcontent {
+  text-align: center;
+  margin-top: 30px;
+}
+.secondcontent .secontentheading {
+  color: #ff0000;
+  font-size: 88px;
+  font-family: Inter;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.secondcontent > h6 {
+  color: #ff0000;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.secondcontent > h3 {
+  color: #070211;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
+/* Third items started */
+
+.MidNIght {
+  background-image: url("./images/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  margin: 50px 140px auto 140px;
+  box-sizing: border-box;
+}
+
+.Midnightparty {
+  margin-top: 30px;
+  padding-left: 200px;
+}
+.Midnightparty > h2 {
+  color: white;
+  font-size: 64px;
+  font-family: Merriweather;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding-top: 200px;
+}
+.Midnightparty > p {
+  color: rgba(151, 149, 149, 0.8);
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.Midnightparty > h6 {
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+/* fourth items started */
+
+.Fourthitems {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  margin: 50px 140px auto 140px;
+  box-sizing: border-box;
+  padding: 200px 430px 100px 450px;
+}
+.Fourthitemcontent #para1 {
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+.Fourthitemcontent span {
+  color: #ff0000;
+}
+.Fourthitemcontent #para2 {
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 25px;
+  padding-bottom: 5px;
+}
+.Fourthitemcontent #para3 {
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.Fourthitemcontent #Button {
+  background: #ff0000;
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 150px;
+}

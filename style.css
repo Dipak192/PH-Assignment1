@@ -108,7 +108,8 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%);
+    rgba(255, 0, 0, 0) 100%
+  );
   border-radius: 16px;
   width: 1320px;
   height: 600px;
@@ -159,77 +160,123 @@ body {
 }
 
 /* Fifth items started */
-.Fithitems{
+.Fithitems {
+  width: 1320px;
+  height: 600px;
+  margin: 50px 140px auto 140px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.fifthitemcontents {
+  display: flex;
+}
+.fiftfirstcontent {
+  padding-top: 150px;
+  padding-right: 50px;
+}
+
+.fifthimg {
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+
+.fifthlastsection {
+  padding-top: 150px;
+  padding-right: 10px;
+}
+.fiftfirstcontent #fifthHead {
+  color: #ff0000;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.fiftfirstcontent #fifthhead2 {
+  color: #070211;
+  font-size: 48px;
+  font-family: Merriweather;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+.fiftfirstcontent #fifthpara {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 8px;
+}
+
+
+.fifthlastsection #fifthlasthead {
+  color: #ff0000;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.fifthlastsection #fifthlastpara {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 15px;
+}
+
+/* Sixth started  */
+
+
+
+
+
+
+
+/* seven started */
+
+.sevenmaincontainer{
     width: 1320px;
-    height: 600px;
-    margin: 50px 140px auto 140px;
-    box-sizing: border-box;
-    margin-top: 30px;
-    background: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%);
+  height: 600px;
+  margin: 50px 140px auto 140px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
-.fifthitemcontents{
-    display: flex;
-}
-.fiftfirstcontent{
-    padding-top: 150px;
-    padding-right: 50px;
-}
-
-
-.fifthimg{
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-}
-
-.fifthlastsection{
-    padding-top: 150px;
-    padding-right: 10px;
-}
-.fiftfirstcontent #fifthHead{
+ .sevenmaincontainer #sevenhead{
     color: #FF0000;
 font-size: 24px;
 font-family: Inter;
 font-weight: 500;
-padding-bottom: 5px;
-padding-left: 5px;
-}
-.fiftfirstcontent #fifthhead2{
+ }
+  .sevenmaincontainer #sevenhead2{
     color: #070211;
 font-size: 48px;
 font-family: Merriweather;
 font-weight: 900;
 text-transform: capitalize;
-padding-left: 10px;
-}
-.fiftfirstcontent #fifthpara{
+  }
+  .sevenmaincontainer #sevenpara{
     color: rgba(7, 2, 17, 0.60);
 font-size: 20px;
 font-family: Inter;
 font-weight: 400;
 line-height: 32px;
-padding-left: 8px;
+  }
 
+.senvenflex{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.fifthimg{
+.imagcontents{
+    width: 400px;
+    overflow: hidden;
+    margin: 10px;
+}
 
-}
-
-.fifthlastsection #fifthlasthead{
-    color: #FF0000;
-font-size: 48px;
-font-family: Inter;
-font-weight: 700;
-padding-bottom: 5px;
-}
-.fifthlastsection #fifthlastpara{
-    color: rgba(7, 2, 17, 0.60);
-font-size: 20px;
-font-family: Inter;
-font-weight: 400;
-line-height: 32px;
-padding-bottom: 15px;
-}
+/* Eight items started here */

@@ -15,6 +15,7 @@ body {
   background-image: url("./images/Banner\ Image.png");
   margin: 50px 140px auto 140px;
   box-sizing: border-box;
+ 
 }
 
 .headcontent {
@@ -25,6 +26,7 @@ body {
   font-weight: 700;
   word-wrap: break-word;
   padding: 150px 180px 100px 150px;
+  background-color: #0000009c;
 }
 .headcontent p {
   font-size: 32px;
@@ -68,8 +70,15 @@ body {
   background-image: url("./images/Vectorrr.png");
   width: 1320px;
   height: 600px;
-  margin: 50px 140px auto 140px;
+  margin: 50px 140px 120px 140px;
   box-sizing: border-box;
+  display: flex;
+
+}
+.Midnightimage{
+  padding-top: 100px;
+  padding-right: 80px;
+  
 }
 
 .Midnightparty {
@@ -83,7 +92,7 @@ body {
   font-weight: 900;
   line-height: 88px;
   letter-spacing: 7.04px;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 .Midnightparty > p {
   color: rgba(151, 149, 149, 0.8);
@@ -113,9 +122,10 @@ body {
   border-radius: 16px;
   width: 1320px;
   height: 600px;
-  margin: 50px 140px auto 140px;
+  margin: 50px 140px 120px 140px;
   box-sizing: border-box;
   padding: 200px 430px 100px 450px;
+  
 }
 .Fourthitemcontent #para1 {
   font-size: 25px;
@@ -229,54 +239,221 @@ body {
 }
 
 /* Sixth started  */
+.Holiday50{
+  width: 1320px;
+  height: 600px;
+  box-sizing: border-box;
+  margin: 50px 140px 120px 140px;
+}
+#Holi1{
+  color: #070211;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#Holi2{
+  font-size: 72px;
+font-family: Merriweather;
+font-weight: 900;
+color: #070211;
+text-align: center;
+margin-bottom: 15px;
 
-
-
+}
+#Holi2 span{
+  color: #FF0000;
+}
+#Holipara{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 100px;
+}
 
 
 
 
 /* seven started */
+.bestgift{
+  width: 1320px;
+  height: 600px;
+  box-sizing: border-box;
+  margin: 50px 140px 120px 140px;
+}
+#besthead1{
+  color: #FF0000;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+}
+#besthead2{
+  color: #070211;
+  font-size: 48px;
+  font-family: Merriweather;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+#bestpara{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+}
 
-.sevenmaincontainer{
+.flexcontainer{
+  width: 1320px;
+  height: 600px;
+  box-sizing: border-box;
+  margin: 50px 140px 120px 140px;
+  
+}
+.fleximage{
+  display: flex;
+  justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+
+
+/* Eight items started here */
+.Eightitemcontainer{
     width: 1320px;
   height: 600px;
-  margin: 50px 140px auto 140px;
+  margin: 50px 140px 120px 140px;
   box-sizing: border-box;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 30px;
+
+  
 }
- .sevenmaincontainer #sevenhead{
-    color: #FF0000;
-font-size: 24px;
-font-family: Inter;
-font-weight: 500;
- }
-  .sevenmaincontainer #sevenhead2{
-    color: #070211;
+.eightitemContents{
+  text-align: center;
+  padding-top: 180px;
+
+
+}
+#SubNEWhead{
+  color: #070211;
 font-size: 48px;
 font-family: Merriweather;
 font-weight: 900;
 text-transform: capitalize;
-  }
-  .sevenmaincontainer #sevenpara{
-    color: rgba(7, 2, 17, 0.60);
+}
+#subpera{
+  color: rgba(7, 2, 17, 0.60);
 font-size: 20px;
 font-family: Inter;
 font-weight: 400;
 line-height: 32px;
-  }
+padding-left: 150px;
+padding-right: 150px;
 
-.senvenflex{
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-    flex-wrap: wrap;
 }
-.imagcontents{
-    width: 400px;
-    overflow: hidden;
-    margin: 10px;
+.btn{
+  padding: 15px 30px;
+ border-radius: 20px;
+ border: none;
 }
+.Subscribe{
+  display: inline;
+  background-color: #FF0000;
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: white;
+  
+}
+/* footer started here */
 
-/* Eight items started here */
+
+
+ footer {
+  background-color: #070211;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 1800px;
+  height: 500px;
+
+ }
+.footerhead{
+  display: flex;
+  justify-content: space-between;
+}
+.footerhead .Fpara1{
+  color: white;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+line-height: 40px;
+padding-top: 40px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 80px;
+}
+#Ftelpara{
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 40px;
+  padding-top: 40px;
+  padding-left: 300px;
+  margin-right: 100px;
+}
+#Fwebpar{
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 40px;
+  padding-left: 300px;
+  padding-top: 5px;
+}
+.sociallogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.footerlast{
+  display: flex;
+  justify-content: space-between;
+}
+.Fpara1{
+  color: white;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+padding-top: 15px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 80px;
+margin-bottom: 100px;
+}
+.unsub{
+  color: white;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+padding-top: 15px;
+padding-right: 100px;
+
+}
+hr{
+  border: 0;
+  height: 2px;
+  background-color: #131313;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}

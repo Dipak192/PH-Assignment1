@@ -13,7 +13,7 @@ body {
   width: 1320px;
   height: 600px;
   background-image: url("./images/Banner\ Image.png");
-  margin: 50px 140px auto 140px;
+  margin: 50px 140px 0px 140px;
   box-sizing: border-box;
  
 }
@@ -144,7 +144,7 @@ body {
   font-weight: 300;
   text-transform: capitalize;
   line-height: 25px;
-  padding-bottom: 5px;
+  
 }
 .Fourthitemcontent #para3 {
   font-size: 25px;
